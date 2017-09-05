@@ -41,7 +41,7 @@ public class PortalUserRole implements Serializable {
 
     @Transient
     private DispensingPointAttendant dispensingPointAttendant;
-
+    
     @Enumerated(EnumType.STRING)
     private Designation designation;
 

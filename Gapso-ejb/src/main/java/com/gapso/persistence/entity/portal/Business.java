@@ -42,10 +42,10 @@ public class Business implements Serializable {
     @Temporal(javax.persistence.TemporalType.TIMESTAMP)
     private Date modifiedDate;
     private boolean active;
-    
+
     @ManyToOne
     private PortalUser owner;
-    
+
     private String mailingAddress;
 
     private boolean approved;
